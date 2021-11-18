@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Galletas",
+    "price": 50,
+    "thumbnail": "https://i.ibb.co/2tWWQH0/cookies.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Budin Navideño",
+    "price": 350,
+    "thumbnail": "https://i.ibb.co/bgVZ8rd/Christmas-Pudding-decorated-with-holly-leaves-on-red-background.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Tarta de Arandanos",
+    "price": 1050,
+    "thumbnail": "https://i.ibb.co/FJwHxPx/tarta-vegana-de-ar-ndanos.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Rolls de canella",
+    "price": 1100,
+    "thumbnail": "http://localhost:8080/imagenes/1637262658561image.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "Medialunas",
+    "price": 450,
+    "thumbnail": "http://localhost:8080/imagenes/1637258518836image.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Tarta de arandanos",
+    "price": 2500,
+    "thumbnail": "http://localhost:8080/imagenes/1637258578295image.jpeg"
+  },
+  {
+    "id": 7,
+    "title": "Tarta de frutos rojos",
+    "price": 2500,
+    "thumbnail": "http://localhost:8080/imagenes/1637258794961image.jpeg"
+  }
+]

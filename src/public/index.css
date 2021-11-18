@@ -1,0 +1,8 @@
+.visibilityHidden{
+    visibility:hidden;
+}
+.sizeImage{
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+}

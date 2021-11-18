@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Pasteleria</title>
+</head>
+<body>
+    <div id="formPost">
+        <form id="addProducts" name="addProducts">
+            <p>AÑADIR producto: (POST)</p>
+            <label for="title">Nombre</label>
+            <input name="title" required>
+            <label for="price">Price</label>
+            <input name="price" required type="number">
+            <label for="image">Imagen producto</label>
+            <input type="file" name="image" id="file" required>
+            <button type="submit"> Guardar producto </button>
+        </form>
+
+        <div id="views">
+            <p id="viewSpecie"> Previsualizacion de producto</p>
+            <img class="sizeImage" id="viewImage">
+        </div>
+    </div>
+    <hr>
+    <div id="formUpdate">
+        <form id="updateProducts" name="updateProducts">
+            <p>ACTUALIZAR producto indicando id (PUT) </p>
+            <label for="paramsId">Indica el id del producto que quieres modificar</label>
+            <input name="paramsId" type="number" required><br><br>
+            <label for="title">Titulo</label>
+            <input name="title" required>
+            <label for="price">Precio</label>
+            <input name="price" required type="number">
+            <label for="image">Imagen producto</label>
+            <input type="file" name="image" id="fileTwo">
+            <button type="submit"> Guardar producto </button>
+        </form>
+
+        <div id="viewsTwo">
+            <p> Previsualizacion de archivo</p>
+            <img class="sizeImage" id="viewImageTwo">
+        </div>
+    </div>
+    <hr>
+    <div id="formDelete">
+        <form id="deleteProducts" name="deleteProducts">
+            <p>BORRAR producto por id (DELETE)</p>
+            <label for="paramsId">Indica el id del producto que quieres eliminar</label>
+            <input name="paramsId" type="number" required><br><br>
+        </form>
+
+        <div id="viewsThree">
+            <p>Previsualizacion del id borrado:</p>
+            <p id="viewThreeIdParams"> </p>
+        </div>
+    </div>
+    <hr>
+    <div id="formGet">
+        <form id="showProducts" name="showProducts">
+            <p>MOSTRAR producto por id (GET)</p>
+            <label for="paramsId">Indica el id del producto que quieres ver</label>
+            <input name="paramsId" type="number" required><br><br>
+        </form>
+
+        <div id="viewsFour">
+            <p>Previsualizacion del id seleccionado:</p>
+            <p id="viewFourIdParams"> </p>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <p> MOSTRAR todos los productos por consola (GET)</p>
+        <button id="showAllProducts"> Ver todos los productos </button>
+    </div>
+    <script src="./index.js"  type="text/javascript" ></script>
+</body>
+</html>
